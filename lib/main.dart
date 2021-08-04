@@ -28,6 +28,7 @@ class FirstScreen extends StatelessWidget{
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ElevatedButton(
                 onPressed: (){},
@@ -49,6 +50,46 @@ class FirstScreen extends StatelessWidget{
         ),
       ),
     );
+  }
+}
+
+class SecondScreen extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Container();
+  }
+}
+
+class SecondScreenWithData extends StatelessWidget{
+  final String data;
+
+  const SecondScreenWithData(this.data);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+class ReturnDataScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+class ReplacementScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+class AnotherScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
 
